@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar Assignment</title>
+    <title>Wb Development Project</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         html,
@@ -12,24 +13,28 @@
         }
     </style>
 </head>
+
 <body class="flex flex-col">
     <nav class="bg-gray-800">
         <div class="container mx-auto px-4">
             <div class="flex items-center justify-between h-16">
                 <div class="flex-shrink-0">
-                    <a href="#" class="text-white text-lg font-semibold"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" width="34px" alt=""></a>
+                    <a href="#" class="text-white text-lg font-semibold"><img
+                            src="https://akti.com.pk/wp-content/uploads/2023/08/arfa-karim-technology-incubator_logo.svg"
+                            width="200px" alt=""></a>
                 </div>
                 <div class="hidden md:block">
                     <ul class="flex space-x-4">
-                        <li><a href="#" class="text-red-500 hover:bg-gray-600 rounded-md font-semibold"> Home</a></li>
-                        <li><a href="/about/about.index.html" class="text-white hover:bg-gray-600 rounded-md font-semibold"> About</a></li>
+                        <li><a href="#" class="text-red-500 hover:bg-gray-600 rounded-md font-semibold">Home</a></li>
+                        <li><a href="/about/about.index.html" class="text-white hover:bg-gray-600 rounded-md font-semibold">About</a></li>
                         <li><a href="/Service/Service.index.html" class="text-white hover:bg-gray-600 rounded-md font-semibold">Service</a></li>
                         <li><a href="/Contact/contact.index.html" class="text-white hover:bg-gray-600 rounded-md font-semibold">Contact</a></li>
                     </ul>
                 </div>
                 <div class="md:hidden">
                     <button class="text-white focus:outline-none">
-                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
                         </svg>
                     </button>
@@ -37,13 +42,23 @@
             </div>
         </div>
     </nav>
-    <div class="flex-grow grid grid-cols-4 gap-4">
-        <div>01</div>
-        <!-- ... -->
-        <div>05</div>
-        <div class="col-span-4 md:col-span-3 grid grid-cols-subgrid gap-4">
-            <div class="col-start-2">06</div>
-            <img src="image.jpg" alt="Babar Azam" class="w-full h-auto">
+    <div class="flex-grow grid grid-cols-1 md:grid-cols-4 gap-4 p-4">
+        <div class="col-span-1 md:col-span-2">
+            <img src="image.jpg" alt="Future Vision" class="w-full h-auto">
+        </div>
+        <div class="col-span-1 md:col-span-2 flex flex-col justify-center space-y-4">
+            <blockquote class="text-xl font-semibold italic text-gray-800">
+                "The best way to predict the future is to invent it."
+            </blockquote>
+            <blockquote class="text-xl font-semibold italic text-gray-800">
+                "The future belongs to those who believe in the beauty of their dreams."
+            </blockquote>
+            <blockquote class="text-xl font-semibold italic text-gray-800">
+                "Your future is created by what you do today, not tomorrow."
+            </blockquote>
+            <blockquote class="text-xl font-semibold italic text-gray-800">
+                "The future depends on what we do in the present."
+            </blockquote>
         </div>
     </div>
     <footer class="bg-blue-400 text-white px-4 py-2">
@@ -52,5 +67,5 @@
         </div>
     </footer>
 </body>
-</html>
 
+</html>
